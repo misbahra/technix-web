@@ -552,3 +552,18 @@
   .tx-stats-grid { grid-template-columns: 1fr 1fr; }
   .tx-h1 { font-size: 38px; }
 }
+
+/* Increase mobile section padding */
+@media (max-width: 900px) {
+  .tx-section {
+    padding: 64px 0; /* Increases vertical spacing between sections on mobile */
+  }
+  
+  .tx-hero {
+    padding: 48px 0 48px; /* Adjusts mobile hero spacing */
+  }
+
+  .tx-shell {
+    padding: 0 20px; /* Slightly tighter side padding for very small screens */
+  }
+}
