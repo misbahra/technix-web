@@ -92,6 +92,8 @@ const stats = [
   { value: "FastAPI / Django", label: "Core Backend Stack" },
   { value: "React / Angular", label: "Frontend Frameworks" },
   { value: "Python / AI", label: "Data Transformation" },
+  { value: "Oracle / PostgreSQL / MongoDB", label: "Database" },
+  { value: "SQL / PL-SQL", label: "Database Development" },
 ];
 
 const navLinks = [
@@ -310,7 +312,16 @@ export default function TechnixSite() {
                 alt="TECHNIX Logo" 
                 width="50" height="50" 
               />
-              TECHNIX
+              <span style={{ display: "inline-block" }}>
+                    TECHNIX
+                    <span style={{ display: "block", color: "var(--text-muted)", fontSize: 14, fontWeight: "normal" }}>
+                        IT Solutions SIA 
+                    </span>
+                    <span style={{ display: "block", color: "var(--text-muted)", fontSize: 12, fontWeight: "normal" }}>
+                        Reg# 40203557920
+                    </span>
+                </span>
+
             </a>
             <p style={{ color: "var(--text-muted)", fontSize: 14, maxWidth: "34ch" }}>
               Full-stack application development, Python data engineering, and AI integration for EU enterprises.
@@ -326,7 +337,7 @@ export default function TechnixSite() {
           </div>
           <div>
             <h4>Contact</h4>
-            <div className="tx-footer-contact"><Mail size={15} /> dev@technixit.com</div>
+            <div className="tx-footer-contact"><Mail size={15} /> info@technixit.com</div>
             <div className="tx-footer-contact"><MapPin size={15} /> Riga • Latvia</div>
           </div>
         </div>

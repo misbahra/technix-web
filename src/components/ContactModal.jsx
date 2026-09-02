@@ -73,11 +73,20 @@ export default function ContactModal({ isOpen, onClose }) {
             Schedule Tech Review
           </h3>
           <p style={{ color: "var(--text-muted)", fontSize: 13, margin: 0 }}>
-            Fill in your project details to connect with a lead engineer.
+            Please send your inquiry to our lead engineer at <b>dev@technixit.com</b>
           </p>
         </div>
 
-        {submitted ? (
+        {/* <div style={{ marginBottom: 20 }}>
+          <h3 className="tx-h2 tx-display" style={{ fontSize: 22 }}>
+            Schedule Tech Review
+          </h3>
+          <p style={{ color: "var(--text-muted)", fontSize: 13, margin: 0 }}>
+            Fill in your project details to connect with a lead engineer.
+          </p>
+        </div> */}
+
+        {/* {submitted ? (
           <div style={{ padding: "20px 0", textAlign: "center", color: "var(--success)" }}>
             <CheckCircle2 size={36} style={{ margin: "0 auto 12px" }} />
             Project Details Submitted. An engineer will reach out shortly.
@@ -123,7 +132,7 @@ export default function ContactModal({ isOpen, onClose }) {
               ></textarea>
             </div>
 
-            {/* GDPR Consent Checkbox */}
+            
             <div className="tx-form-group" style={{ margin: "16px 0" }}>
               <label
                 style={{
@@ -159,7 +168,7 @@ export default function ContactModal({ isOpen, onClose }) {
               {loading ? "Sending..." : "Submit Architecture Inquiry"}
             </button>
           </form>
-        )}
+        )} */}
       </div>
     </div>
   );
